@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER Lopaka Delp
+LABEL test=stress
 
 RUN apt-get update
 RUN apt-get -y install stress
